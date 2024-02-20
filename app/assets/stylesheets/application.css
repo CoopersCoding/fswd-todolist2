@@ -13,22 +13,47 @@
  *= require_tree .
  *= require_self
  */
- #root {
-    margin: 70px auto;
+ /*index.css*/
+
+
+.container {
+  background-color: aqua;
+    font-family: orbitron;
+  border: 1px solid black;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 20px;
-    width: 500px;
-    background-color: rgba(223, 221, 221, 0.87);
-    border-radius: 10px;
-    border: 2px solid black;
-}
+    width: 50%;
+    max-width: 500px;
+    
+  }
 
-label {
-    font-weight: bold;
-    padding: 0 10px;
-    text-align: left;
-}
+h2 {
 
-.mb-1 {
+    font-family: orbitron;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 200px;
+    
+  }
+
+input {
+    
+    margin-left: auto;
+    margin-right: auto;
     padding: 5px;
-}
+  }
+
+div.row {
+padding: 10px;
+    
+  }
+
+  #create-task {
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+  }
 
